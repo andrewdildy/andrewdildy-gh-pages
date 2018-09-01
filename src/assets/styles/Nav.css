@@ -1,0 +1,29 @@
+.nav {
+    background-color: #2F2F2F;
+    overflow: hidden;
+    height: 50px;
+}
+
+.nav a {
+    color: white;
+}
+
+.nav .name {
+    float: left;
+    text-align: left;
+    width: 32.33%;
+    text-decoration: none;
+    padding: 10px 0 0 1%;
+    font-size: 24px;
+}
+
+.nav .nav-links {
+    float: left;
+    text-align: center;
+    width: 33.33%;
+    padding-top: 16px;
+}
+
+a.nav-link.active {
+    color: #ABABAB;
+}

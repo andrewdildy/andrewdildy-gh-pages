@@ -1,0 +1,44 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F7F7F7;
+    color: #2F2F2F;
+    margin: 0;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+a {
+    color: #2F2F2F;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.nav-links {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav-link {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ABABAB;
+}
+
