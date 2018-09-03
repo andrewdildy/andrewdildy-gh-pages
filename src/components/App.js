@@ -8,14 +8,12 @@ import Contact from './Contact';
 
 
 const App = () => (
-    <div>
-        <Switch>
-            <Route exact path='/' component={Home}/>
-            <Route path='/about' component={About}/>
-            <Route path='/projects' component={Projects}/>
-            <Route path='/contact' component={Contact}/>
-        </Switch>
-    </div>
+    <Switch>
+        <Route exact path='/' component={Home}/>
+        <Route path='/about' component={About}/>
+        <Route path='/projects' component={Projects}/>
+        <Route path='/contact' component={Contact}/>
+    </Switch>
 );
 
 export default App;

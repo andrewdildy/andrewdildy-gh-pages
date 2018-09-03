@@ -7,6 +7,9 @@
 .nav a {
     color: white;
 }
+.nav a:hover {
+    color: #ABABAB;
+}
 
 .nav .name {
     float: left;

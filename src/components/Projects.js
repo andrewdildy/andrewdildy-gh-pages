@@ -1,11 +1,16 @@
 import React from 'react';
-import Nav from './Nav';
-//import '../styles/Nav.css';
+import { Switch, Route } from 'react-router-dom';
+import AllProjects from './AllProjects';
+import Project from './Project';
+import Nav from "./Nav";
 
 const Projects = () => (
     <div>
-        <Nav active={'PROJECTS'} />
-        projects
+        <Nav active={'PROJECTS'}/>
+        <Switch>
+            <Route exact path='/projects' component={AllProjects}/>
+            <Route path='/projects/:name' component={Project}/>
+        </Switch>
     </div>
 );
 

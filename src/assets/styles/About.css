@@ -1,0 +1,82 @@
+.about {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 33% 67%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.about .left-column {
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 1;
+    margin-right: 15px;
+}
+
+.about .right-column {
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 2;
+}
+
+.about .content-box {
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.about .content {
+    padding: 15px;
+}
+
+.overview img {
+    border-radius: 50%;
+    display: block;
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #CBCBCB;
+}
+
+.about .title {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.about .sub-section {
+    font-size: 11px;
+    font-weight: 600;
+    color: #ABABAB;
+    border-bottom: 0.5px solid #CBCBCB;
+}
+
+.about .school {
+    column-count: 2;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 8px;
+}
+
+.about .sub-title {
+    font-weight: 800;
+}
+
+.about .date {
+    text-align: right;
+    color: #ABABAB;
+}
+
+.about .job {
+    border-bottom: 0.5px solid #CBCBCB;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+.about .job-title {
+    column-count: 2;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 8px;
+}

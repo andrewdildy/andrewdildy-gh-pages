@@ -1,6 +1,5 @@
 import React from 'react';
 import '../assets/styles/Home.css';
-import headshot from '../assets/img/headshot.jpg';
 import { Link } from 'react-router-dom';
 
 const Home = () => (
@@ -25,7 +24,9 @@ const Home = () => (
                         I recently graduated from UC Berkeley and am looking for careers in UI/UX and software development.
                     </p>
                 </div>
-                <img src={headshot}/>
+                <div className='headshot'>
+                    <img src={'/images/headshot.jpg'}/>
+                </div>
             </div>
         </div>
     </div>

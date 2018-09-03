@@ -1,12 +1,15 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #F7F7F7;
+    background-color: #F3F3F3;
     color: #2F2F2F;
     margin: 0;
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 h2 {
@@ -16,10 +19,15 @@ h2 {
 
 a {
     color: #2F2F2F;
+    text-decoration: none;
 }
 
 a:visited {
     color: inherit;
+}
+
+a:hover {
+    color: #ABABAB;
 }
 
 .name {
@@ -38,7 +46,5 @@ a:visited {
     text-decoration: none;
 }
 
-a:hover {
-    color: #ABABAB;
-}
+
 
